@@ -6,6 +6,7 @@ const PersonForm = ({ addPersonWithoutDuplicates, newName, handleNameChange, new
         <div>
           name:
           <input
+            placeholder="name"
             value={newName}
             onChange={handleNameChange}
           />
@@ -13,6 +14,7 @@ const PersonForm = ({ addPersonWithoutDuplicates, newName, handleNameChange, new
         <div>
           number:
           <input
+            placeholder="number"
             value={newNumber}
             onChange={handleNumberChange}
           />
