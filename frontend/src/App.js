@@ -161,7 +161,7 @@ const App = () => {
   }
 
   return (
-    <div>
+    <div className="container">
       <h2>Phonebook</h2>
       <Notification message={message} messageType={messageType}/>
       <Filter filterName={filterName} handleFilterChange={handleFilterChange} />
