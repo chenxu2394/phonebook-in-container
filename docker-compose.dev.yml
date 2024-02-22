@@ -26,3 +26,5 @@ services:
       - ./backend:/usr/src/app
       - /usr/src/app/node_modules
     container_name: phonebook-backend-dev
+    env_file:
+      - ./backend/.env
